@@ -1,0 +1,317 @@
+@font-face {
+    font-family: '국립박물관문화재단클래식B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '국립박물관문화재단클래식M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/국립박물관문화재단클래식M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 15px;
+    background-color: white;
+    color: #6a75ca;
+    font-size: 18px;
+    border-bottom: 3px solid #B4C7E7;
+}
+
+body {
+    background-color:#E6EEFB;
+}
+
+.title {
+    font-family: '국립박물관문화재단클래식B';
+    font-size: 40px;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 250px 0 0 0;
+}
+
+.navbar {
+    background-color: white;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nav1 {
+    float: left;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo img {
+    width: 170px;
+    height: 80px;
+}
+
+.nav2 {
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav3 {
+    float: left;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: gray;
+    font-weight: lighter;
+    font-size: 23px;
+}
+.navbar a:hover {
+    color: #0D51FE;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar li {
+    margin-left: 15px;
+    list-style-type: none;
+    float: left;
+    font-family: '국립박물관문화재단클래식B';
+}
+
+.navbar li:hover {
+    border-bottom: 2px solid #0D51FE;
+}
+
+.projectType {
+    width: 80%;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0 0 -120px;
+}
+
+.projectType a {
+    text-decoration: none;
+    color: gray;
+    font-weight: lighter;
+    font-size: 40px;
+    margin: 0 150px 0 150px;
+}
+
+.projectType a:hover {
+    color: black;
+}
+
+.projectType ul {
+    float: right;
+}
+
+.projectType li {
+    margin-left: 15px;
+    list-style-type: none;
+    float: left;
+    font-family: '국립박물관문화재단클래식B';
+}
+
+.web {
+    border-bottom: 3px solid #0D51FE;
+}
+
+.weblist {
+    margin: 0 0 0 40px;
+}
+
+.projectCard1 {
+    width: 350px;
+    vertical-align: middle;
+    position: relative;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    height: 500px;
+    background: #CEE3FF;
+    font-size: 30px;
+    float: left;
+    color: black;
+    padding-left: 45px;
+    margin: 80px 0 200px 300px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+}
+
+.projectCard1 img {
+    margin: 30px 0 0 -25px;
+}
+
+.prjTitle1 {
+    margin: 20px 0 0 70px;
+    font-family: '국립박물관문화재단클래식B';
+    font-size: 30px;
+    color: #0D51FE;
+}
+
+.prjSummary1 {
+    margin: 20px 0 0 10px;
+    font-family: '국립박물관문화재단클래식M';
+    font-size: 25px;
+    color: black;
+}
+
+.prjDate1 {
+    margin: 20px 0 0 25px;
+    font-family: '국립박물관문화재단클래식M';
+    font-size: 25px;
+    color: black;
+}
+
+.more1 {
+    height: 50px;
+    width: 150px;
+    background-color: #0D51FE;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: '국립박물관문화재단클래식M';
+    margin: 30px 0 0 -95px;
+}
+
+.projectCard2 {
+    width: 350px;
+    vertical-align: middle;
+    position: relative;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    height: 500px;
+    background: #CEE3FF;
+    font-size: 30px;
+    float: left;
+    color: black;
+    padding-left: 45px;
+    margin: -455px 0 0 400px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+}
+
+.projectCard2 img {
+    margin: 30px 0 0 -25px;
+}
+
+.prjTitle2 {
+    margin: 20px 0 0 95px;
+    font-family: '국립박물관문화재단클래식B';
+    font-size: 30px;
+    color: #0D51FE;
+}
+
+.prjSummary2 {
+    margin: 20px 0 0 40px;
+    font-family: '국립박물관문화재단클래식M';
+    font-size: 25px;
+    color: black;
+}
+
+.prjDate2 {
+    margin: 20px 0 0 15px;
+    font-family: '국립박물관문화재단클래식M';
+    font-size: 25px;
+    color: black;
+}
+
+.more2 {
+    height: 50px;
+    width: 150px;
+    background-color: #0D51FE;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: '국립박물관문화재단클래식M';
+    margin: 30px 0 0 -95px;
+}
+
+.projectCard3 {
+    width: 350px;
+    vertical-align: middle;
+    position: relative;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    height: 500px;
+    background: #CEE3FF;
+    font-size: 30px;
+    float: left;
+    color: black;
+    padding-left: 45px;
+    margin: -450px 0 0 400px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
+}
+
+.projectCard3 img {
+    margin: 30px 0 0 -25px;
+}
+
+.prjTitle3 {
+    margin: 20px 0 0 95px;
+    font-family: '국립박물관문화재단클래식B';
+    font-size: 30px;
+    color: #0D51FE;
+}
+
+.prjSummary3 {
+    margin: 20px 0 0 40px;
+    font-family: '국립박물관문화재단클래식M';
+    font-size: 25px;
+    color: black;
+}
+
+.prjDate3 {
+    margin: 20px 0 0 15px;
+    font-family: '국립박물관문화재단클래식M';
+    font-size: 25px;
+    color: black;
+}
+
+.more3 {
+    height: 50px;
+    width: 150px;
+    background-color: #0D51FE;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    color: white;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: '국립박물관문화재단클래식M';
+    margin: 30px 0 0 -95px;
+}
+

@@ -1,0 +1,82 @@
+html,
+body {
+    margin: 0;
+    font-family: IM_Hyemin-Bold;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-color: green;
+    color:white;
+    font-size: 12px;
+    padding: 10px;
+    text-align:center;
+}
+
+main{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form {
+    margin: 10px;
+}
+
+.form input{
+    border-radius: 10px;
+    width: 70%;
+    padding: 10px 15px;
+    margin: 5px 2px;
+    font-size: 15px;
+    border: solid 5px indianred;
+    font-family: IM_Hyemin-Bold;
+}
+
+.form button {
+    border: none;
+    border-radius: 10px;
+    background-color: indianred;
+    color: white;
+    padding: 10px 15px;
+    margin: 5px 2px;
+    font-size: 15px;
+    font-family: IM_Hyemin-Bold;
+}
+
+#todo-list {
+    display: table;
+    margin: 20px auto;
+}
+
+#todo-list li .elem {
+    margin-right: 10px;
+}
+
+#todo-list li .time {
+    color:darkgray;
+    font-size: 5px;
+    margin-right: 10px;
+}
+
+
+#todo-list li button {
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+#todo-list li button:hover {
+    color:tomato;
+}
+
+.strikeout {
+    text-decoration: line-through;
+    color:dimgray;
+}
