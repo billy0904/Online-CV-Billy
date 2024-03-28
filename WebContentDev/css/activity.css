@@ -68,6 +68,19 @@ body {
     display: flex;
 }
 
+.Activity3 {
+    font-family: '국립박물관문화재단클래식M';
+    font-size: 23px;
+    color: black;
+    margin: 50px 0 0 0;
+}
+
+.item3 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
 .Next {
     font-family: '국립박물관문화재단클래식B';
     font-size: 35px;
