@@ -1,7 +1,7 @@
 
 // 기술스택창
 const $text = document.querySelector(".mySkills");
-const skills = ["Photoshop","Illustrator", "Figma","Procreate","HTML","CSS", "JavaScript","Python","Java","C#","Unity", "Firebase"];
+const skills = ["Photoshop","Figma","Procreate","HTML","CSS", "JavaScript", "C", "Python","C#","Unity", "Firebase", "React"];
 const speed = 200;
 let i = 0;
 
@@ -27,7 +27,7 @@ while (skill.length) {
     $text.innerHTML = skill.join(""); 
 }
 
-i = !skills[i+1]?0:i+1;
+i = !skills[i + 1] ? 0 : i + 1;
 type();
 }
 

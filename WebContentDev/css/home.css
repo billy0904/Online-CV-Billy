@@ -34,11 +34,13 @@ body {
 
 .hello {
   font-family: '국립박물관문화재단클래식B';
-  font-size: 40px;
+  font-size: 3em;
   color: black;
-  justify-content: left;
-  display: flex;
-  margin: 350px 0 0 770px;
+  /* justify-content: left; */
+  /* align-items: center; */
+  /* display: flex; */
+  /* margin: 350px 0 0 770px; */
+  text-align: left;
 }
 
 #job {
@@ -47,25 +49,45 @@ body {
 
 .gabin {
   font-family: '국립박물관문화재단클래식B';
-  font-size: 60px;
+  font-size: 4em;
   color: #0D51FE;
-  justify-content: left;
-  display: flex;
-  margin: 10px 0 250px 770px;
+  /* justify-content: left; */
+  /* display: flex; */
+  /* margin: 10px 0 250px 770px; */
+  text-align: left;
 } 
 
 .intro {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  text-align: center;
-  margin: auto;
+  align-items: center;
+  /* vertical-align: middle; */
+  /* text-align: center; */
+  height: 100vh;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .intro img {
-  height: 350px;
-  position: absolute;
-  justify-content: center;
+  /* height: 350px; */
+  height: 23em;
+  display: block;
+  /* align-self: center; */
+  margin: auto;
+  /* flex-grow: 1; */
+  /* position: absolute; */
+  /* justify-content: center; */
+  /* display: flex; */
+  /* margin: -90px 0 0 400px; */
+}
+
+.intro .content {
+  flex: 1; 
   display: flex;
-  margin: -90px 0 0 400px;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
 }
 
 .navbar {
@@ -131,71 +153,50 @@ body {
   border-bottom: 2px solid #0D51FE;
 }
 
-.todo {
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-right: 20px;
-  margin: -40px 0 0 -80px;
-}
-
-.todobtn {
-  height: 50px;
-  width: 100px;
-  background-color: #0D51FE;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.19);
-  font-size: 16px;
-  color: white;
-  vertical-align: middle;
-  white-space: nowrap;
-  font-family: '국립박물관문화재단클래식M';
-  margin: 0 0 0 780px;
-}
-
 .typingSkills {
   height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-right: 20px;
-  margin: -100px 0 0 0px;
+  margin: 200px 0 0 0;
 }
 
 .type_box {
-  width: 530px;
-  vertical-align: middle;
+  /* width: 530px; */
+  width: 50em;
+  /* vertical-align: middle; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-between; */
   white-space: nowrap;
   position: relative;
-  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  height: 70px;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+  height: 6em;
   background: white;
-  border: none;
+  /* border: none; */
   font-size: 10pt;
-  float: left;
+  /* float: left; */
   color: black;
-  padding-left: 45px;
+  padding-left: 40px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 15px;
 }
 
 .type_box img {
-  margin: 13px 0 0 -10px;
+  height: 45px;
 }
 
 .defaultText {
   font-family: '국립박물관문화재단클래식B';
   font-size: 50px;
   text-align: left;
-  margin: -55px 0 0 80px;
+  margin: 0 20px 0 40px;
 }
 
 .mySkills {
   width: 300px;
-  margin: -62px 0 0 220px;
   font-size: 45px;
   font-family: '국립박물관문화재단클래식B';
   color: #95AEDE;
